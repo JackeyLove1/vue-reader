@@ -1,0 +1,7 @@
+:root{
+    --bgcolor:#F6AC31;
+}
+
+.selected {
+    color: var(--bgcolor);
+}
