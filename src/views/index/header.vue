@@ -1,5 +1,6 @@
 <script setup>
 
+import Banner from "@/views/index/banner.vue";
 </script>
 
 <template>
@@ -20,6 +21,7 @@
     </ul>
   </van-sticky>
   <img src="@/assets/images/header.jpg">
+<!--  <Banner/>-->
 </template>
 
 <style scoped>

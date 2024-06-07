@@ -3,7 +3,9 @@ import Footer from "@/views/footer/index.vue"
 </script>
 
 <template>
-  <router-view/>
+  <div class="container">
+    <router-view/>
+  </div>
   <Footer></Footer>
 </template>
 

@@ -6,3 +6,11 @@
 .selected {
     color: var(--bgcolor);
 }
+
+.container{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 60px);
+    padding-bottom: 60px;
+    overflow-y: auto;
+}
