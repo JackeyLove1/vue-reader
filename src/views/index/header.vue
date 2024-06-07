@@ -20,8 +20,6 @@
     </ul>
   </van-sticky>
   <img src="@/assets/images/header.jpg">
-
-  <div class="box"></div>
 </template>
 
 <style scoped>
