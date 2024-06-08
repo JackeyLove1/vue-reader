@@ -1,10 +1,13 @@
 <script setup>
+function goback() {
+  window.history.go(-1);
 
+}
 </script>
 
 <template>
   <div class="p-[20px] login">
-    <div class="flex justify-start">
+    <div class="flex justify-start" @click="goback">
       <div>X</div>
     </div>
     <h2 class="title">欢迎登录</h2>
